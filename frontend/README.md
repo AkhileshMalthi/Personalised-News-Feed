@@ -1,0 +1,1 @@
+// TODO #2 Write Frontend's README explaining the structure and the implementation
