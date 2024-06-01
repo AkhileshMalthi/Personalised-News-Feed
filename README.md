@@ -10,13 +10,13 @@ This project aims to build a web-based personalized news aggregator that leverag
 * Offer optional news summarization using the LLM for quick information access.
 * Implement a feedback mechanism for continuous improvement.
 
-**Tech Stack (suggestions):**
+**Tech Stack:**
 
-* **Front-end:** ReactJS, AngularJS (or similar)
-* **Back-end:** Python (Flask/Django)
-* **Database:** PostgreSQL, MongoDB (or similar)
-* **Web Scraping:** BeautifulSoup, Scrapy (or similar)
-* **LLM API:** OpenAI (ChatGPT), Google AI (Bard) (or similar)
+* **Front-end:** ReactJS
+* **Back-end:** Python (Flask)
+* **Database:** MongoDB
+* **Web Scraping:** BeautifulSoup
+* **LLM API:** OpenAI (ChatGPT), Google AI (Bard) or any other
 
 **Getting Started:**
 
