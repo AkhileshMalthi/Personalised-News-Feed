@@ -1,99 +1,62 @@
-## Smart Personalized News Feed
+## Personalised News Feed
 
-This project builds a web application using MERN (MongoDB, Express, React, Node.js) with a machine learning component for a personalized news feed experience.
+This project aims to build a web-based personalized news aggregator that leverages Large Language Models (LLMs) to filter and summarize news articles based on user preferences.
 
-**Features:**
+**Project Goals:**
 
-- Users can browse news articles from various sources.
-- The application recommends relevant news articles based on user interactions (saved articles, browsing history) and content analysis of the articles.
-- Users can interact with the news feed by saving articles and potentially adjusting their preferences.
+* Develop a user-friendly interface for profile creation and news feed browsing.
+* Integrate an LLM API for user profile analysis and news article filtering.
+* Provide users with a personalized news feed tailored to their interests and preferred sources.
+* Offer optional news summarization using the LLM for quick information access.
+* Implement a feedback mechanism for continuous improvement.
 
-**Technologies Used:**
+**Tech Stack:**
 
-- **Front-end:** React
-- **Back-end:** Node.js, Express, MongoDB
-- **Machine Learning:** Python (optional, libraries like TensorFlow.js or scikit-learn)
-
-**Project Structure:**
-
-```
-project_root/
-├── client/  # React front-end application
-│   ├── ...
-├── server/  # Node.js and Express back-end
-│   ├── ...
-├── ml/  # Python code for the machine learning model (optional)
-│   ├── ...
-└── .env  # Environment variables
-```
+* **Front-end:** ReactJS
+* **Back-end:** Python (Flask)
+* **Database:** MongoDB
+* **Web Scraping:** BeautifulSoup
+* **LLM API:** OpenAI (ChatGPT), Google AI (Bard) or any other
 
 **Getting Started:**
 
-1. **Prerequisites:**
-    - Node.js and npm (or yarn) installed on your system.
-    - A MongoDB database running locally or on a cloud platform.
-    - Basic understanding of React, Node.js, Express, MongoDB, and machine learning concepts (optional).
-
-2. **Clone the project:**
+1. **Clone the repository:**
 
    ```bash
-   git clone https://your-github-repo/smart-personalized-news-feed.git
+   git clone https://github.com/<your-username>/personalised-news-feed.git
    ```
 
-3. **Install dependencies:**
+2. **Install dependencies:**
 
-   - Navigate to the project root directory.
-   - Install dependencies for the front-end:
+   Refer to the `requirements.txt` file (to be created) for specific dependencies and installation instructions.
 
-     ```bash
-     cd client
-     npm install  # or yarn install
-     ```
+3. **Configure LLM API:**
 
-   - Install dependencies for the back-end:
+   * Obtain an API key from your chosen LLM provider (OpenAI, Google AI).
+   * Create a configuration file (`.env` or similar) to store your API key securely (refer to documentation for proper configuration).
 
-     ```bash
-     cd ../server
-     npm install  # or yarn install
-     ```
+**Project Structure (Suggestions):**
 
-   - Install dependencies for the machine learning component (if using Python):
+* `frontend/`: Contains the code for the user interface.
+* `backend/`: Contains the code for server-side logic and API interaction.
+* `data/`: Stores collected news articles and user profile data.
+* `scripts/`: Contains helper scripts for data collection, pre-processing, and deployment.
+* `README.md`: This file (you are currently reading it!).
+* `requirements.txt`: Lists all required dependencies for the project.
+* `.env`: Stores sensitive information like LLM API keys (if applicable).
 
-     ```bash
-     cd ../ml
-     pip install -r requirements.txt
-     ```
+**Contributing:**
 
-4. **Configure environment variables:**
+We welcome contributions to this project! Here's how you can get involved:
 
-   - Create a `.env` file in the project root directory.
-   - Add environment variables for sensitive information like API keys or database connection strings.
+* **Bug reports and feature requests:**  
+  Use the GitHub issue tracker to report bugs or suggest new features.
+* **Code contributions:**
+  Fork the repository, make your changes, and submit a pull request for review. 
+  Ensure your code adheres to the existing code style and formatting guidelines (to be defined in a separate coding style document).
+* **Documentation improvements:** 
+  Help us improve the project documentation by creating pull requests for the README.md or other documentation files.
 
-     ```
-     # Example entries in .env
-     REACT_APP_API_KEY=your_api_key
-     MONGODB_URI=mongodb://localhost:27017/your_database_name
-     ```
+**Getting Help:**
 
-5. **Run the application:**
-
-   - Start the MongoDB database.
-   - Start the back-end server:
-
-     ```bash
-     cd ../server
-     node app.js
-     ```
-
-   - Start the React development server:
-
-     ```bash
-     cd ../client
-     npm start  # or yarn start
-     ```
-
-   - The application should be accessible at `http://localhost:3000` (or a different port if specified).
-
-**Feel free to contribute!**
-
-This is an open-source project. If you have suggestions or improvements, feel free to fork the repository and submit pull requests.
+If you have any questions or need help with the project, feel free to create an issue on the GitHub repository or reach out to the project maintainers through the defined communication channel.
