@@ -4,11 +4,10 @@ This guide outlines building the frontend for a Personalised News Feed applicati
 
 **Project Setup:**
 
-1. Utilize `create-react-app` to set up the project:
+1. Utilize `vite` to set up the project:
 
    ```bash
-   npx create-react-app personalised-news-feed
-   cd personalised-news-feed
+   npm create vite@latest ./
    ```
 
 **Component Structure:**
