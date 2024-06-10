@@ -25,7 +25,7 @@ personalised-news-feed/
 │   │   ├── Profile.js  # Component for user profile management
 │   │   ├── NewsFeed.js  # Component displaying personalized news articles
 │   │   └── NewsCard.js  # Component for individual news article display
-│   └── index.js  # Entry point for the React application
+│   └── main.js  # Entry point for the React application
 ```
 
 **User Interface Development:**
